@@ -14,8 +14,18 @@ namespace RxNet.Interval
         private static void Main(string[] args)
         {
             Observable
-                .Interval(TimeSpan.FromMilliseconds(1))
-                .Select(l => Observable.FromAsync(() => GetInt(l)))
+                .Interval(TimeSpan.FromMilliseconds(200))
+                .Select(l => Observable.FromAsync(async () =>
+                {
+                    try
+                    {
+                        await GetInt(l);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex);
+                    }
+                }))
                 .Concat()
                 .Subscribe();
             Console.ReadLine();
@@ -40,6 +50,7 @@ namespace RxNet.Interval
             Console.WriteLine(value);
             Console.WriteLine(DateTime.Now.ToString("hh:mm:ss.fff"));
             await Task.Delay(2000);
+            throw new InvalidOperationException("TEST");
             //return default;
             //SpinWait.SpinUntil(() => false, 2000);
         }
