@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel.ClosedXML", "Excel.Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer.HighResolution", "Timer.HighResolution\Timer.HighResolution.csproj", "{5D5691FA-BFBD-4B60-807A-ACB47206F0F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json.DeserializeCustomItem", "Json.DeserializeCustomItem\Json.DeserializeCustomItem.csproj", "{93EF13E6-E766-4D30-BA33-FCA5EEC701B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5D5691FA-BFBD-4B60-807A-ACB47206F0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D5691FA-BFBD-4B60-807A-ACB47206F0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D5691FA-BFBD-4B60-807A-ACB47206F0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93EF13E6-E766-4D30-BA33-FCA5EEC701B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EF13E6-E766-4D30-BA33-FCA5EEC701B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EF13E6-E766-4D30-BA33-FCA5EEC701B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EF13E6-E766-4D30-BA33-FCA5EEC701B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
