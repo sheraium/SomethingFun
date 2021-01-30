@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer.HighResolution", "Tim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json.DeserializeCustomItem", "Json.DeserializeCustomItem\Json.DeserializeCustomItem.csproj", "{93EF13E6-E766-4D30-BA33-FCA5EEC701B9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubProcessStartExit", "SubProcessStartExit\SubProcessStartExit.csproj", "{02C9DD56-B4AD-4CC9-B590-DEACFB03D956}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{93EF13E6-E766-4D30-BA33-FCA5EEC701B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93EF13E6-E766-4D30-BA33-FCA5EEC701B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93EF13E6-E766-4D30-BA33-FCA5EEC701B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C9DD56-B4AD-4CC9-B590-DEACFB03D956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C9DD56-B4AD-4CC9-B590-DEACFB03D956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C9DD56-B4AD-4CC9-B590-DEACFB03D956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C9DD56-B4AD-4CC9-B590-DEACFB03D956}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
