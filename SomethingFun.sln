@@ -5,21 +5,23 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RxNet.Interval", "RxNet.Interval\RxNet.Interval.csproj", "{9CD997D5-5914-4708-A292-C589D10FD280}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel.ClosedXML", "Excel.ClosedXML\Excel.ClosedXML.csproj", "{57304DAE-B0DE-4774-B30A-82B4C115E632}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excel.ClosedXML", "Excel.ClosedXML\Excel.ClosedXML.csproj", "{57304DAE-B0DE-4774-B30A-82B4C115E632}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer.HighResolution", "Timer.HighResolution\Timer.HighResolution.csproj", "{5D5691FA-BFBD-4B60-807A-ACB47206F0F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timer.HighResolution", "Timer.HighResolution\Timer.HighResolution.csproj", "{5D5691FA-BFBD-4B60-807A-ACB47206F0F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json.DeserializeCustomItem", "Json.DeserializeCustomItem\Json.DeserializeCustomItem.csproj", "{93EF13E6-E766-4D30-BA33-FCA5EEC701B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Json.DeserializeCustomItem", "Json.DeserializeCustomItem\Json.DeserializeCustomItem.csproj", "{93EF13E6-E766-4D30-BA33-FCA5EEC701B9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubProcessStartExit", "SubProcessStartExit\SubProcessStartExit.csproj", "{02C9DD56-B4AD-4CC9-B590-DEACFB03D956}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{08C296ED-C6C8-484B-8A7A-C5C4FEC872A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{08C296ED-C6C8-484B-8A7A-C5C4FEC872A4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{653C8D30-930E-485F-88F6-90F4602E1AA1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{00FEE3B1-C142-4E6B-B5CC-B366FB3441DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{7DFE96E3-786C-40F6-86FF-2909BA0E9E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A1C3EF6D-653B-4A15-B77E-7B89A88CBADA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{7DFE96E3-786C-40F6-86FF-2909BA0E9E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DFE96E3-786C-40F6-86FF-2909BA0E9E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DFE96E3-786C-40F6-86FF-2909BA0E9E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C3EF6D-653B-4A15-B77E-7B89A88CBADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C3EF6D-653B-4A15-B77E-7B89A88CBADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C3EF6D-653B-4A15-B77E-7B89A88CBADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C3EF6D-653B-4A15-B77E-7B89A88CBADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
