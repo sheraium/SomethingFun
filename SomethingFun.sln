@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{7DFE96E3-786C-40F6-86FF-2909BA0E9E8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A1C3EF6D-653B-4A15-B77E-7B89A88CBADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A1C3EF6D-653B-4A15-B77E-7B89A88CBADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipFileTester", "ZipFileTester\ZipFileTester.csproj", "{C776276B-4FC5-44BD-94BC-8D633CB70235}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{A1C3EF6D-653B-4A15-B77E-7B89A88CBADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1C3EF6D-653B-4A15-B77E-7B89A88CBADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1C3EF6D-653B-4A15-B77E-7B89A88CBADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C776276B-4FC5-44BD-94BC-8D633CB70235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C776276B-4FC5-44BD-94BC-8D633CB70235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C776276B-4FC5-44BD-94BC-8D633CB70235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C776276B-4FC5-44BD-94BC-8D633CB70235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
